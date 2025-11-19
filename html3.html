@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css3.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+    </header>
+    <form>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required placeholder="John Doe"><br><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" required placeholder="john@example.com"><br><br>
+        <label for="subject">Subject</label><br>
+        <div>
+            <select>
+                <option value="general">Select a Subject</option>
+                <option value="support">Support Request</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+        </div><br><br>
+        
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" required placeholder="Your message here..."></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </div>
+</body>
+</html>

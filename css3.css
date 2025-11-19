@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(135deg, #7c4dff, #7031bd);
+    font-family: "Segoe UI", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    
+}
+.container{
+    width:300px;
+    height:auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:25px;
+    max-width:500px;
+    
+
+}
+
+h1{
+    font-family: "Segoe UI", sans-serif;
+   
+}
+p{
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(162, 158, 158);
+    
+}
+label{
+   font-family: "Segoe UI", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+form input{
+    width:260px;
+    padding:10px;
+    border-radius: 5px;
+    border-color: hsla(0, 3%, 80%, 0.507);
+    border-width: 2px;
+
+}
+select{
+    width: 282px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Arial", sans-serif;
+    border-color: hsla(0, 1%, 54%, 0.507);
+    font-size: 10px;
+    font-weight: 700;
+    border-width: 2px;
+    padding:5px
+}
+form textarea{
+    width: 260px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    border-color: hsla(0, 2%, 66%, 0.636);
+    border-width: 2px;
+}
+button{
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(121, 100, 238);
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    border: none;
+}
+::placeholder{
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10px;
+    color: rgb(162, 158, 158);
+    font-weight: 700;
+}
+
